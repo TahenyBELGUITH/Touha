@@ -34,6 +34,20 @@
 }
 
 
+@font-face {
+  font-family: Gamelan;
+  src: url('../src/fonts/Gamelan.ttf');
+}
+
+* {
+  font-family: "Gamelan";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+}
 
   
 
