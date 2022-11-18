@@ -1,18 +1,24 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './Services.css'
 import HeartEmoji from "../../img/heartemoji.png"
 import Glasses from "../../img/glasses.png"
 import Humble from "../../img/humble.png"
 import Card from '../Card/Card'
 import Resume from "./Resume.pdf"
+import { themeContext } from "../../Context"
+
 
 
 function Services() {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
    <div className="services">
     {/* left side */}
     <div className="awesome">
-     <span>My Awesome</span>
+        <span
+          style={{ color: darkMode ? 'white' : '' }}
+        >My Awesome</span>
      <span>services</span>
      <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br></br> Reiciendis dolorum est aperiam praesentium. </span>
      <a href= { Resume } download>
@@ -52,7 +58,6 @@ function Services() {
       />
      </div>
      <div className="blur s-blur2" style={{ background: "var(--purple)"}}></div>
-
 
     </div>
     </div>
