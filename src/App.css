@@ -34,7 +34,28 @@
 }
 
 
+@font-face {
+  font-family: Gamelan;
+  src: url('../src/fonts/Gamelan.ttf');
+}
+
+* {
+  font-family: "Gamelan";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+}
 
   
+ @media screen and (max-width: 480px) {
+    .App {
+      padding: 0.5rem 1rem;
+
+    }
+  }
+
 
   
