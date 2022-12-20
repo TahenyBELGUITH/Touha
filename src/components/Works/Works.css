@@ -70,6 +70,11 @@
   transform: scale(0.6);
 }
 
+.fiverjci {
+  height: 8rem;
+  width: 8rem;
+}
+
 .w-backCircle {
   position: absolute;
   height: 13rem;

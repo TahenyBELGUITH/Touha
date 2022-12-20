@@ -6,10 +6,11 @@ function Card({emoji, heading, detail}) {
   <div className="card">
    <img src={emoji}></img>
    <span>{heading}</span>
-   <span>{detail}</span>
+       <span>{detail}</span>
+       <a href='#contact'>
    <button className='c-button'>
-    LEARN MORE
-   </button>
+    Like it ?
+   </button></a>
   </div>
    )
 }

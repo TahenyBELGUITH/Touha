@@ -44,12 +44,13 @@
   align-items: center;
   justify-content: space-evenly;
   padding: 2rem;
-  width: 30rem;
-  height: 12rem;
+  width: 50rem;
+  height: 19rem;
   background: rgba(255, 255, 255, 0.26);
   border: 7px solid var(--blueCard);
   box-shadow: var(--boxShadow);
   border-radius: 20px;
+  margin: 3rem;
 }
 
 .testimonial > img {
@@ -60,6 +61,7 @@
 
 .testimonial > span {
   color: var(--gray);
+  line-height: 2rem;
 }
 
 .t-wrapper .swiper {

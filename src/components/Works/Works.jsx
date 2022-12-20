@@ -23,8 +23,9 @@ function Works() {
         <span
         style={{ color: darkMode ? 'white' : '' }} >Works for All these </span>
      <span>Brands & Clients</span>
-     <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br></br> Reiciendis dolorum praesentium.<br/>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </span>
-      <button className='button s-button'>Hire me </button>
+        <span>I’d be happy to help you find a solution! </span>
+        <a href='#contact'>
+      <button className='button s-button'>Hire me </button></a>
      <div className="blur s-blur1" style={{
           background: '#ABF1FF94'}}></div>
     </div>
@@ -42,7 +43,7 @@ function Works() {
       </div>
 
       <div className="w-secCircle">
-       <img src= {Fiverr}></img>
+       <img src= {Fiverr} className ="fiverjci"></img>
       </div>
 
       <div className="w-secCircle">
