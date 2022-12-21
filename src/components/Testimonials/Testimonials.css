@@ -78,3 +78,18 @@
 .t-wrapper .swiper-pagination-bullet-active {
   background: var(--orange);
 }
+
+@media screen and (max-width: 480px) {
+  .testimonial {
+    justify-content: space-between;
+  }
+
+  .testimonial span {
+    line-height:23px;
+    font-size: 18px;
+  }
+
+  .t-heading span {
+    font-size: 29px;
+  }
+}

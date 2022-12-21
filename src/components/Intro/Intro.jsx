@@ -58,7 +58,7 @@ function Intro() {
           whileInView={{ left: '68%' }}
           transition = {transiton}
           
-          style={{ top: '-4%', left: '68%' }}>
+          style={{ top: '-4%', left: '88%' }}>
       <FloattingDiv image={Crown} text1='Web' text2= 'Developer' />
      </motion.div>
      

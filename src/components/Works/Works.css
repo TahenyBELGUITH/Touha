@@ -94,3 +94,24 @@
   left: 9rem;
   top: 7rem;
 }
+
+@media screen and (max-width: 480px) {
+  .work {
+    flex-direction: column;
+    margin-top: 16rem;
+    padding: 0;
+  }
+
+  .awesome span:nth-child(1) {
+    font-size: 1.9rem;
+  }
+
+  .awesome span:nth-child(2) {
+    font-size: 2rem;
+  }
+
+  .w-right {
+    transform: scale(0.6);
+    right: 35%;
+  }
+}

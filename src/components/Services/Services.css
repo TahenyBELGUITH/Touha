@@ -52,3 +52,16 @@
   top: 13rem;
   left: -18rem;
 }
+
+@media screen and (max-width: 480px) {
+  .services {
+    padding: 20px;
+    flex-direction: column;
+    height: 15rem;
+    display: block;
+  }
+
+  .awesome {
+    text-align: center;
+  }
+}

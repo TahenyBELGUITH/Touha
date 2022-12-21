@@ -136,4 +136,27 @@
     display: none;
     top: -7rem !important;
   }
+
+  .i-right > :nth-child(1) {
+   top: -21%;
+  }
+
+  .i-right > :nth-child(2) {
+    left: -7rem;
+}
+
+.i-right > :nth-child(3) {
+    left: -121%;
+    top: -187%;
+}
+
+.i-right > :nth-child(4) {
+    top: -32%;
+}
+
+.i-left {
+    align-items: center;
+  }
+
+
 }
