@@ -25,9 +25,10 @@ function Intro() {
      <div className="i-name">
       <span style ={{color: darkMode ?'white' : ''}}>Hy! I Am</span>
       <span>Taheny Belguith</span>
-      <span>Full stack Developer with high level and development, producting the quality work</span>
-     </div>
-     <button className="button i-button">Hire me</button>
+      <span>I'm A Passionate Self-Taught Full-Stack Software Developer From Tunisia. My Passion For Software Lies With Dreaming Up Ideas And Making Them Come True With Elegant Interfaces.</span>
+        </div>
+        <a href='#contact'>
+     <button className="button i-button">Hire me</button></a>
      <div className="i-icons">
       <a href="https://github.com/TahenyBELGUITH">
        <img src={ Github } />
@@ -57,7 +58,7 @@ function Intro() {
           whileInView={{ left: '68%' }}
           transition = {transiton}
           
-          style={{ top: '-4%', left: '68%' }}>
+          style={{ top: '-4%', left: '88%' }}>
       <FloattingDiv image={Crown} text1='Web' text2= 'Developer' />
      </motion.div>
      

@@ -16,23 +16,23 @@ function Testimonials() {
  const clients = [
   {
    img: profilePic1,
-   review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dicta nam vel aperiam ullam ea perferendis qui temporibus tempore, dolores omnis eveniet. Necessitatibus, amet voluptate quos obcaecati harum veritatis aperiam."
+   review: "Taheny is Great either in person or in technical aspects, she is someone who can not rest until she pushes all boundaries."
   },
   {
    img: profilePic2,
-   review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dicta nam vel aperiam ullam ea perferendis qui temporibus tempore, dolores omnis eveniet. Necessitatibus, amet voluptate quos obcaecati harum veritatis aperiam."
+   review: "During my time at Microverse, Taheny and I have met on a couple of occasions and have worked together on a group project."
   },
   {
    img: profilePic3,
-   review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dicta nam vel aperiam ullam ea perferendis qui temporibus tempore, dolores omnis eveniet. Necessitatibus, amet voluptate quos obcaecati harum veritatis aperiam."
+   review: "We meet many people every day but only some leave a mark. One of them is Taheny. She was my partner at Microverse."
   },
   {
    img: profilePic4,
-   review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dicta nam vel aperiam ullam ea perferendis qui temporibus tempore, dolores omnis eveniet. Necessitatibus, amet voluptate quos obcaecati harum veritatis aperiam."
+   review: "Taheny has passion for web development. She likes exploring and learning things at her own pace."
   },
   {
    img: profilePic5,
-   review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dicta nam vel aperiam ullam ea perferendis qui temporibus tempore, dolores omnis eveniet. Necessitatibus, amet voluptate quos obcaecati harum veritatis aperiam."
+   review: "Taheny is very intelligent and very qualified. She's talented and she keeps always her motivation up. "
   },
   {
    img: profilePic6,
@@ -74,7 +74,7 @@ function Testimonials() {
        </SwiperSlide>
         )
         })}
-    </Swiper>
+      </Swiper>
     </div>
   )
 }

@@ -24,7 +24,7 @@ function Services() {
           style={{ color: darkMode ? 'white' : '' }}
         >My Awesome</span>
      <span>services</span>
-     <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br></br> Reiciendis dolorum est aperiam praesentium. </span>
+     <span>Find the best awesome services you need<br/> to help you successfully meet your project <br/>planning goals and deadline. </span>
      <a href= { Resume } download>
       <button className='button s-button'>Download CV</button>
       </a>
@@ -53,6 +53,7 @@ function Services() {
            initial={{ left: "-11rem", top: "12rem" }}
           whileInView={{ left: "-4rem" }}
           transition={transition}
+
           
           style={{ top: "12rem", left: "-4rem" }}>
        <Card
@@ -72,8 +73,8 @@ function Services() {
           style={{ top: "19rem", left: "12rem" }}>
        <Card
        emoji={Humble}
-       heading={'UI/UX'}
-       detail = {"Loreum ispum dummy"}
+       heading={'JCI member'}
+       detail = {"IT consultant"}
       />
      </motion.div>
      <div className="blur s-blur2" style={{ background: "var(--purple)"}}></div>
