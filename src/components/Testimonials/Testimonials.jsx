@@ -1,6 +1,4 @@
 import React from 'react'
-import ShowMoreText from "react-show-more-text";
-
 import "./Testimonials.css"
 import { Swiper, SwiperSlide } from "swiper/react"
 import profilePic1 from "../../img/profile1.jpg"
